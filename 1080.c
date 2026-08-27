@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Algortimo e Estrutura de Dados 2026S1
+Nome        : Leonardo Mercado de Carlos
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1080
+Data        : 20/08/2026
+Objetivo    : Ler 100 valores inteiros e dizer o maior valor e seu index
+Dificuldade : Nenhum
+Uso de IA   : Nenhum
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
  
 int main() {
