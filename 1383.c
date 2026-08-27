@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Algortimo e Estrutura de Dados 2026S1
+Nome        : Leonardo Mercado de Carlos
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1383
+Data        : 20/08/2026
+Objetivo    : Conferir n tabuleiros (matrizes 9x9) de sudoku e testar quais são válidas
+Dificuldade : Estruturar o código com clareza
+Uso de IA   : Revisão do código e dicas de otimização/organização
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 // TODOs possíveis: fazer um define para tamanho do tabuleiro e dos grupos para escalabilidade
