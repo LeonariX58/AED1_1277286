@@ -3,13 +3,14 @@ Disciplina  : Algortimo e Estrutura de Dados 2026S1
 Nome        : Leonardo Mercado de Carlos
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1383
-Data        : 20/08/2026
-Objetivo    : Conferir n tabuleiros (matrizes 9x9) de sudoku e testar quais são válidas
+Data        : 27/08/2026
+Objetivo    : Conferir n tabuleiros (matrizes 9x9) de sudoku e testar quais são válidas usando alocação dinâmica
 Dificuldade : Estruturar o código com clareza
 Uso de IA   : Revisão do código e dicas de otimização/organização
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 // TODOs possíveis: fazer um define para tamanho do tabuleiro e dos grupos para escalabilidade
 // mudar o check1DGroup para já testar todos os parametros usando algum tipo de variável 'seen'
@@ -93,7 +94,12 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
-        int board[9][9] = {0};
+
+        int **board = (int **) malloc(9 * sizeof(int *));
+        for (int j = 0; j < 9; j++) {
+            board[j] = (int *) malloc(9 * sizeof(int));
+        }
+        
         readBoard(board);
 
         if (isBoardValid(board)) printf("Instancia %d\nSIM\n\n", i);
