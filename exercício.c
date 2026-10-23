@@ -32,7 +32,6 @@ void insert(No *cel, int n) {
 }
 
 void printTree(No *cel) {
-
     No *aux = cel;
     if (cel->dir)
 

@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Algortimo e Estrutura de Dados 2026S1
+Nome        : Leonardo Mercado de Carlos
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1062
+Data        : 24/09/2026
+Objetivo    : Algorítmo para checar se trens podem se empilhados e desempilhados em ordem
+Dificuldade : Desvendar a lógica do método invertido usado.
+Uso de IA   : Auxilio na lógica de inversão da ordem
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
 #include <stdlib.h>
 
