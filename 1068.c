@@ -11,7 +11,6 @@ Uso de IA   : Debug e usar o return do fgets como condição de parada
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 typedef struct Pilha {
     struct Pilha *p;
